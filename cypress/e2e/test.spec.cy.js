@@ -3,7 +3,7 @@ describe('template spec', () => {
     cy.visit('/')
   })
 
-  it('',() => {
-
+  it('Select item 1',() => {
+    cy.xpath("//a[normalize-space()='Samsung galaxy s6']").click()
   })
 })
